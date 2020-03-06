@@ -104,3 +104,8 @@ search:
   path: search.xml
   field: post
   content: true
+
+deploy:
+  - type: git
+    repository: git@github.com:andychao217/andychao217.github.io.git
+    branch: master
