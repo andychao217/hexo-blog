@@ -1,0 +1,87 @@
+---
+layout: post
+title: 纯CSS仿iOS开关
+date: 2020-01-13 12:00:00
+categories:
+    - CSS
+tags:
+    - CSS
+    - 前端
+---
+
+```HTML
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" name="viewport" />
+        <style type="text/css">
+            .Switch {
+                margin-top: auto;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: auto;
+                padding: 0;
+                width: 800px;
+            }
+            .Switch li {
+                clear: both;
+                line-height: 44px;
+                border-bottom: 1px solid #CCC;
+                list-style: none;
+            }
+            .Switch input {
+                display: none
+            }
+            .Switch label {
+                width: 52px;
+                background: #CCC;
+                height: 28px;
+                border-radius: 14px;
+                float: right;
+                margin: 8px 10px 0 0;
+                box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+            }
+            .Switch label em {
+                width: 26px;
+                height: 26px;
+                float: left;
+                margin: 1px;
+                border-radius: 13px;
+                box-shadow: 2px 3px 8px rgba(0,0,0,.1);
+                background: #FFF;
+            }
+            .Switch input:checked + label {
+                background: #a4d714;
+            }
+            .Switch input:checked + label em {
+                float: right;
+            }
+            .Switch input:disabled + label {
+                opacity: 0.5
+            }
+        </style>
+        <title>开关测试2</title>
+    </head>
+    <body>
+        <ul class="Switch">
+            <li>
+                <input type="checkbox" name="Storage" id="date" />
+                    流量不足提醒
+                <label for="date"><em></em></label>
+            </li>
+            <li>
+                <input type="checkbox" name="Storage2" id="blance" checked />
+                    余额不足提醒
+                <label for="blance"><em></em></label>
+            </li>
+            <li>
+                <input type="checkbox" name="Storage2" id="integral" disabled />
+                    积分兑换提醒
+                <label for="integral"><em></em></label>
+            </li>
+        </ul>
+    </body>
+</html>
+```
