@@ -67,7 +67,7 @@ welcome_cover: /img/cover.jpg
 cover: /img/welcome-cover.jpg
 
 # Avatar
-avatar: https://www.andychao217.cn/images/profilepic.jpg
+avatar: /img/profilepic.jpg
 
 # Disable default scrollbar
 scrollbar: true
