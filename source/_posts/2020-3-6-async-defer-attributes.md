@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What are `defer` and `async` attributes on a `<script>` tag?
+title: What are `defer` and `async` attributes on a `script` tag?
 date: 2020-03-06 12:00:00
 categories:
     - 基础知识
