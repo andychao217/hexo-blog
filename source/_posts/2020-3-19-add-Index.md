@@ -12,7 +12,7 @@ tags:
 
 ### addIndex
 
-> ```((a … → b) … → [a] -→ *) → ((a …, Int, [a] → b) … → [a] → *)```
+> ((a … → b) … → [a] -→ *) → ((a …, Int, [a] → b) … → [a] → *)
 
 Creates a new list iteration function from an existing one by adding two new parameters to its callback function: the current index, and the entire list.
 
