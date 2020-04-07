@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'use strict' in JavaScript
+title: use strict in JavaScript
 date: 2020-04-04 15:00:00
 categories:
     - JavaScript

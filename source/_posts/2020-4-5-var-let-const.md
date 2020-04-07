@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'var', 'let', 'const'
+title: var, let and const
 date: 2020-04-05 15:00:00
 categories:
     - JavaScript
